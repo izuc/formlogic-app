@@ -22,7 +22,7 @@
     "clsx": "^2.1.1",
     "esbuild-wasm": "^0.25.12",
     "framer-motion": "^12.23.26",
-    "lucide-react": "^0.562.0",
+    "lucide-react": "^1.23.0",
     "monaco-editor": "^0.52.2",
     "qrcode.react": "^4.2.0",
     "quickjs-emscripten": "^0.32.0",
