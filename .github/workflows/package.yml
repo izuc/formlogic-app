@@ -45,7 +45,7 @@ jobs:
       # Always keep the zip as a workflow artifact (this is the only output for
       # workflow_dispatch runs on untagged commits).
       - name: Upload zip as workflow artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: formlogic-dist
           path: dist-package/*.zip
