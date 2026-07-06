@@ -31,7 +31,7 @@ jobs:
 
       # Mirrors ci.yml: Node 20 for the UI build.
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: npm
