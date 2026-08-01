@@ -116,7 +116,7 @@ getrandom = "0.2"
 # DATA-PRIV-001: at-rest encryption for the operational journals (event
 # receipts + work ledger), which carry transcript/SMS/caller payloads. AEAD
 # with a per-install data key held in the OS credential store.
-chacha20poly1305 = "0.10"
+chacha20poly1305 = "0.11"
 
 # TRUST-001: verification of first-party-signed plugin package manifests
 # (pinned publisher keys; signature + per-file digest checks before staging
